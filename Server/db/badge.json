@@ -1,0 +1,250 @@
+[
+  {
+    "type": "check-in",
+    "level": 1,
+    "name": "First Sprout",
+    "image": "/imgs/badges/check-1.webp",
+    "description": "For checking in once.",
+    "target": 1
+  },
+  {
+    "type": "check-in",
+    "level": 2,
+    "name": "Green Thumb",
+    "image": "/imgs/badges/check-2.webp",
+    "description": "For logging in for 7 consecutive days.",
+    "target": 7
+  },
+  {
+    "type": "check-in",
+    "level": 3,
+    "name": "Reliable Gardener",
+    "image": "/imgs/badges/check-3.webp",
+    "description": "For logging in for 15 consecutive days.",
+    "target": 15
+  },
+  {
+    "type": "check-in",
+    "level": 4,
+    "name": "Daily Farmer",
+    "image": "/imgs/badges/check-4.webp",
+    "description": "For logging in for 30 consecutive days.",
+    "target": 30
+  },
+  {
+    "type": "check-in",
+    "level": 5,
+    "name": "Harvest Hero",
+    "image": "/imgs/badges/check-5.webp",
+    "description": "For logging in for 60 consecutive days.",
+    "target": 60
+  },
+  {
+    "type": "check-in",
+    "level": 6,
+    "name": "Seasoned Grower",
+    "image": "/imgs/badges/check-6.webp",
+    "description": "For logging in for 120 consecutive days.",
+    "target": 120
+  },
+  {
+    "type": "check-in",
+    "level": 7,
+    "name": "Perennial Worker",
+    "image": "/imgs/badges/check-7.webp",
+    "description": "For logging in for 365 consecutive days.",
+    "target": 365
+  },
+  {
+    "type": "farm",
+    "level": 1,
+    "name": "Sprout Collector",
+    "image": "/imgs/badges/farm-1.webp",
+    "description": "For harvesting 1 mushroom.",
+    "target": 1
+  },
+  {
+    "type": "farm",
+    "level": 2,
+    "name": "Fresh Picker",
+    "image": "/imgs/badges/farm-2.webp",
+    "description": "For harvesting 10 mushrooms.",
+    "target": 10
+  },
+  {
+    "type": "farm",
+    "level": 3,
+    "name": "Bountiful Grower",
+    "image": "/imgs/badges/farm-3.webp",
+    "description": "For harvesting 50 mushrooms.",
+    "target": 50
+  },
+  {
+    "type": "farm",
+    "level": 4,
+    "name": "Harvest Champion",
+    "image": "/imgs/badges/farm-4.webp",
+    "description": "For harvesting 100 mushrooms.",
+    "target": 100
+  },
+  {
+    "type": "farm",
+    "level": 5,
+    "name": "Shroomy Master",
+    "image": "/imgs/badges/farm-5.webp",
+    "description": "For harvesting 250 mushrooms.",
+    "target": 250
+  },
+  {
+    "type": "farm",
+    "level": 6,
+    "name": "Farming Tycoon",
+    "image": "/imgs/badges/farm-6.webp",
+    "description": "For harvesting 500 mushrooms.",
+    "target": 500
+  },
+  {
+    "type": "farm",
+    "level": 7,
+    "name": "Legendary Harvest",
+    "image": "/imgs/badges/farm-7.webp",
+    "description": "For harvesting 1000+ mushrooms.",
+    "target": 1000
+  },
+  {
+    "type": "tap",
+    "level": 1,
+    "name": "Shroomy Starter",
+    "image": "/imgs/badges/tap-1.webp",
+    "description": "For playing 5 times.",
+    "target": 5
+  },
+  {
+    "type": "tap",
+    "level": 2,
+    "name": "Frequent Player",
+    "image": "/imgs/badges/tap-2.webp",
+    "description": "For playing 20 times.",
+    "target": 20
+  },
+  {
+    "type": "tap",
+    "level": 3,
+    "name": "Shroomy Enthusiast",
+    "image": "/imgs/badges/tap-3.webp",
+    "description": "For playing 50 times.",
+    "target": 50
+  },
+  {
+    "type": "tap",
+    "level": 4,
+    "name": "Dedicated Shroomer",
+    "image": "/imgs/badges/tap-4.webp",
+    "description": "For playing 100 times.",
+    "target": 100
+  },
+  {
+    "type": "tap",
+    "level": 5,
+    "name": "Shroomy Regular",
+    "image": "/imgs/badges/tap-5.webp",
+    "description": "For playing 200 times.",
+    "target": 200
+  },
+  {
+    "type": "tap",
+    "level": 6,
+    "name": "Shroomy Addict",
+    "image": "/imgs/badges/tap-6.webp",
+    "description": "For playing 500 times.",
+    "target": 500
+  },
+  {
+    "type": "tap",
+    "level": 7,
+    "name": "Shroomy Master",
+    "image": "/imgs/badges/tap-7.webp",
+    "description": "For playing 1000+ times.",
+    "target": 1000
+  },
+  {
+    "type": "invite",
+    "level": 1,
+    "name": "Friendly Farmer",
+    "image": "/imgs/badges/invite-1.webp",
+    "description": "For inviting 1 friend.",
+    "target": 1
+  },
+  {
+    "type": "invite",
+    "level": 2,
+    "name": "Social Sprout",
+    "image": "/imgs/badges/invite-2.webp",
+    "description": "For inviting 5 friends.",
+    "target": 5
+  },
+  {
+    "type": "invite",
+    "level": 3,
+    "name": "Shroomy Ambassador",
+    "image": "/imgs/badges/invite-3.webp",
+    "description": "For inviting 10 friends.",
+    "target": 10
+  },
+  {
+    "type": "invite",
+    "level": 4,
+    "name": "Spore Spreader",
+    "image": "/imgs/badges/invite-4.webp",
+    "description": "For inviting 25 friends.",
+    "target": 25
+  },
+  {
+    "type": "invite",
+    "level": 5,
+    "name": "Shroomy Promoter",
+    "image": "/imgs/badges/invite-5.webp",
+    "description": "For inviting 50 friends.",
+    "target": 50
+  },
+  {
+    "type": "invite",
+    "level": 6,
+    "name": "Community Cultivator",
+    "image": "/imgs/badges/invite-6.webp",
+    "description": "For inviting 100 friends.",
+    "target": 100
+  },
+  {
+    "type": "invite",
+    "level": 7,
+    "name": "Ultimate Influencer",
+    "image": "/imgs/badges/invite-7.webp",
+    "description": "For inviting 250+ friends.",
+    "target": 250
+  },
+  {
+    "type": "week",
+    "level": 0,
+    "name": "Weekly Maestro",
+    "image": "/imgs/badges/maestro.webp",
+    "description": "For securing the top 1 position in the weekly rank.",
+    "target": 0
+  },
+  {
+    "type": "month",
+    "level": 0,
+    "name": "Monthly Champion",
+    "image": "/imgs/badges/champion.webp",
+    "description": "For securing the top 1 position in the monthly rank.",
+    "target": 0
+  },
+  {
+    "type": "all-time",
+    "level": 0,
+    "name": "All-Time Legend",
+    "image": "/imgs/badges/legend.webp",
+    "description": "For securing the top 1 position in the all-time rank.",
+    "target": 0
+  }
+]

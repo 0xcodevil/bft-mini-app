@@ -1,0 +1,61 @@
+[
+  {
+    "type": "invite",
+    "title": "1 Friend",
+    "target": 1,
+    "reward": {
+      "coin": 3
+    }
+  },
+  {
+    "type": "invite",
+    "title": "5 Friends",
+    "target": 5,
+    "reward": {
+      "coin": 20
+    }
+  },
+  {
+    "type": "invite",
+    "title": "10 Friends",
+    "target": 10,
+    "reward": {
+      "coin": 50
+    }
+  },
+  {
+    "type": "invite",
+    "title": "25 Friends",
+    "target": 25,
+    "reward": {
+      "coin": 150
+    }
+  },
+  {
+    "type": "social",
+    "title": "Follow on X",
+    "link": "https://x.com/babybft",
+    "icon": "/imgs/task/x.webp",
+    "reward": {
+      "coin": 10
+    }
+  },
+  {
+    "type": "social",
+    "title": "Join Telegram Group",
+    "link": "https://t.me/babybft",
+    "icon": "/imgs/task/telegram.webp",
+    "reward": {
+      "coin": 10
+    }
+  },
+  {
+    "type": "social",
+    "title": "Visit Website",
+    "link": "https://babybft.com",
+    "icon": "/imgs/task/website.webp",
+    "reward": {
+      "coin": 10
+    }
+  }
+]

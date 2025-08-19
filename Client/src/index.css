@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ee7c2b;
+  --color-secondary: #799b4b;
+  --color-tertiary: #dbba57;
+  --color-muted: #8f6e56;
+  --color-border: #d6cec2;
+}
+
+:root {
+  --tg-theme-text-color: black !important;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

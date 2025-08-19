@@ -1,0 +1,23 @@
+{
+  "name": "bft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd client && npm install && cd ../wallet && npm install && cd ../server && npm install",
+    "prestart": "npm run build",
+    "start": "npm start --prefix server",
+    "dev": "concurrently \"npm run client\" \"npm run wallet\" \"npm run server\"",
+    "client": "npm run dev --prefix client",
+    "wallet": "npm run dev --prefix wallet",
+    "server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client && npm run build --prefix wallet",
+    "bot": "npm run bot --prefix server",
+    "dev:bot": "npm run dev:bot --prefix server"
+  },
+  "author": "0xcodevil",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
