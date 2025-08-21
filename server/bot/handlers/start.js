@@ -21,18 +21,18 @@ const attachStartHandler = () => {
     const invite_fullUrl = `https://t.me/share/url?url=${encodeURIComponent(link)}&text=${encodeURIComponent(shareText)}`;
 
     const keyboard = new InlineKeyboard()
-      .webApp('Play Now 🍄🍄🍄', process.env.WEBAPP_URL)
+      .webApp('Play Now', process.env.WEBAPP_URL)
       .row()
-      .url('Join X', 'https://twitter.com/shroomyProject')
-      .url('Join Community', 'https://t.me/shroomyProject')
+      .url('Join X', 'https://twitter.com/')
+      .url('Join Community', 'https://t.me/')
       .row()
-      .url('Visit Website', 'https://shroomy.io/')
+      .url('Visit Website', 'https://babybft.com')
       .url('Invite', invite_fullUrl)
 
     await ctx.replyWithPhoto(
       process.env.BOT_LOGO,
       {
-        caption: 'Welcome to Shroomy bot!\n\nThe Shroomy Project draws its inspiration from the majestic kingdom of fungi and the paradigm-shifting power of crypto. SHROOMY the token has found its home on the new Ethereum L2 chain Ink, where it seeks to cultivate a thriving community of purpose-driven mushroom lovers.',
+        caption: 'Welcome to BFT bot!\n\nBaby BFT is a revolutionary cryptocurrency project that combines artificial intelligence with blockchain technology to create immersive gaming experiences, generative NFT tools, and social media interactions in the metaverse.',
         reply_markup: keyboard,
       }
     );

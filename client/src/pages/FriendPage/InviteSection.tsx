@@ -31,7 +31,7 @@ const InviteSection = () => {
       </div>
       <div onClick={handleCopyLink} className="bg-white/30 rounded-xl p-4 text-center space-y-2 cursor-pointer">
         <div className="text-sm text-white">Your Invite Link:</div>
-        <div className="font-bold text-lg">{import.meta.env.VITE_APP_URL + '?startapp=' + user.id}</div>
+        <div className="font-bold text-lg break-words whitespace-normal">{import.meta.env.VITE_APP_URL + '?startapp=' + user.id}</div>
       </div>
       <button onClick={handleInviteLink} className="cursor-pointer w-full bg-white hover:bg-white/90 rounded-xl flex items-center justify-center gap-4 p-2 text-primary transition-all duration-200">
         <LuUsers />

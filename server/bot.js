@@ -13,10 +13,10 @@ const main = async () => {
     await DB.connect(process.env.MONGO_URL);
 
     attachStartHandler();
-    attachChannelHandler();
-    attachPostHandler();
-    attachAdminHandler();
-    attachHoldersHandler();
+    // attachChannelHandler();
+    // attachPostHandler();
+    // attachAdminHandler();
+    // attachHoldersHandler();
 
     Bot.api.deleteWebhook().then(() => {
         Bot.start();
