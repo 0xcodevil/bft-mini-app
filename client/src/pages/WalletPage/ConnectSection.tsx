@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import Card from "@/components/ui/Card";
 import { LuWallet, LuShield, LuCopy, LuCheck } from "react-icons/lu";
-import { openLink } from "@telegram-apps/sdk-react";
+import { initDataUser, openLink } from "@telegram-apps/sdk-react";
 import { API } from "@/libs/API";
 
 const ConnectSection = () => {
+  const user = initDataUser()!;
   const [coin, setCoin] = useState(0);
   const [bftBalance, setBftBalance] = useState(0);
   const [bbftBalance, setBbftBalance] = useState(0);
@@ -12,7 +13,7 @@ const ConnectSection = () => {
   const [copied, setCopied] = useState(false);
 
   const handleConnectWallet = () => {
-    openLink(location.origin + '/wallet-connect');
+    openLink(location.origin + '/wallet-connect?tg=' + user.id);
   };
 
   const handleCopyAddress = async () => {
