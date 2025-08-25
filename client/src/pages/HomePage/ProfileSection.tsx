@@ -7,10 +7,18 @@ import { API, apiErrorHandler } from "@/libs/API";
 
 const ProfileSection = () => {
   const tg = initDataUser()!;
+  const [streak, setStreak] = useState(0);
+  const [rank, setRank] = useState(0);
   const [user, setUser] = useState<any>(null);
 
   useEffect(() => {
     API.get('/user/me').then(res => setUser(res.data)).catch(apiErrorHandler);
+    API.get('/check-in/check').then(res => {
+      setStreak(res.data.streak);
+    }).catch(console.error);
+    API.get('/user/ranking/total').then(res => {
+      setRank(res.data.me.rank);
+    }).catch(apiErrorHandler);
   }, []);
 
   return (
@@ -20,7 +28,7 @@ const ProfileSection = () => {
         <div className="leading-none">
           <div className="text-lg font-bold">{tg.first_name} {tg.last_name}</div>
           {user ?
-            <div className="text-muted">Level {Utils.getLevel(user.score.total)} • 7 day streak</div> :
+            <div className="text-muted">Level {Utils.getLevel(user.score.total)} • {streak} day streak</div> :
             <div className="text-muted">---</div>}
         </div>
       </div>
@@ -34,7 +42,7 @@ const ProfileSection = () => {
           <div className="text-muted text-sm">Best Score</div>
         </div>
         <div className="">
-          <div className="text-tertiary font-bold text-xl">#{'---'}</div>
+          <div className="text-tertiary font-bold text-xl">#{rank ? rank : '---'}</div>
           <div className="text-muted text-sm">Rank</div>
         </div>
       </div>
